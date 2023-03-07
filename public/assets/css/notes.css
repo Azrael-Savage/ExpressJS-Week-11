@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.navbar {
+  background-color: #17A2B8;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#write-button {
+  font-size: 2rem;
+  background-color: white;
+  color: #17A2B8;
+  border-radius: 50%;
+  border: none;
+  margin-right: 1rem;
+}
+
+.notes-column {
+  background-color: #F5F5F5;
+  padding: 1.5rem;
+}
+
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.note:hover {
+  background-color: #F0F0F0;
+}
+
+.note-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.note-body {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.delete-button {
+  background-color: #DC3545;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: #C82333;
+}
+
+.form-column {
+  padding: 1.5rem;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#note-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.note-title:focus {
+  box-shadow: 0 0 0.25rem #17A2B8;
+}
+
+.note-body {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  height: 300px;
+  resize: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.note-body:focus {
+  box-shadow: 0 0 0.25rem #17A2B8;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #17A2B
+};
