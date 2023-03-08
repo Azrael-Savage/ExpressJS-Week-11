@@ -1,5 +1,9 @@
 # Note Taker
 
+
+![notes](https://user-images.githubusercontent.com/113001155/223583382-28004e0a-c32e-4b83-aaf6-cc010fdd0b98.PNG)
+
+
 ## Description
 Web App to take notes
 
